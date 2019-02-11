@@ -2,7 +2,7 @@ import tweepy
 import datetime
 import pandas as pd
 
-def gettwitterdata(keyword,outputFileName):
+def getTwitterData(keyword,outputFileName):
 
     #Twitter APIを使用するためのConsumerキー、アクセストークン設定
     Consumer_key = 'Consumer_key'
@@ -41,4 +41,4 @@ if __name__ == '__main__':
     keyword = "テスト -RT"
     outputFileName="test.csv"
 
-    gettwitterdata(keyword,outputFileName)
+    getTwitterData(keyword,outputFileName)
