@@ -4,7 +4,7 @@ import pandas as pd
 
 def getTwitterData(keyword,outputFileName):
 
-    #Twitter APIを使用するためのConsumerキー、アクセストークン設定
+    #Twitter APIを使用するためのConsumer_key、Consumer_secret、Access_token、Access_secret
     Consumer_key = 'Consumer_key'
     Consumer_secret = 'Consumer_secret'
     Access_token = 'Access_token'
