@@ -1,7 +1,3 @@
-import tweepy
-import datetime
-import pandas as pd
-
 def toEnglish(string):
     # -*- coding: utf-8 -*-
     import requests, uuid, json

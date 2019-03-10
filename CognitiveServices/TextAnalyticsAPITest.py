@@ -1,7 +1,3 @@
-import tweepy
-import datetime
-import pandas as pd
-
 def sentimentValue(string):
     subscription_key = "subscription_key"
     assert subscription_key
